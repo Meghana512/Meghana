@@ -1,0 +1,53 @@
+body {  
+    font-family: Arial, sans-serif;  
+    background: linear-gradient(to right, dimgray, #efe7e1);  
+    color: lightslategray;  
+    text-align: center;  
+    margin: 0;  
+    padding: 20px;  
+    overflow: hidden;  
+}  
+
+.container {  
+    max-width: 600px;  
+    margin: auto;  
+}  
+
+.countdown, .portfolio {  
+    background: rgba(0, 0, 0, 0.7);  
+    border-radius: 10px;  
+    padding: 20px;  
+    margin: 20px 0;  
+}  
+
+#timer {  
+    font-size: 2em;  
+}  
+
+button {  
+    padding: 10px 20px;  
+    background-color: lightblue;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+}  
+
+button:hover {  
+    background-color: #ff7e5f;  
+}  
+
+.photo {  
+    border-radius: 50%;  
+    width: 100px;  
+    height: 100px;  
+    overflow: hidden;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    margin: auto;  
+}  
+
+.photo img {  
+    width: 100%;  
+    height: auto;  
+}  
